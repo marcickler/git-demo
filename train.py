@@ -1,4 +1,5 @@
 import torch
+
 from model import net
 
 x = torch.zeros(1000)

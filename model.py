@@ -1,4 +1,6 @@
 import torch
 
+
 def net(x: torch.Tensor):
-    return x ** 2
+    """Predict next token."""
+    return x**2
